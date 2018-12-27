@@ -12,6 +12,7 @@
 		3325570121D5532400912D31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 332556FF21D5532400912D31 /* Main.storyboard */; };
 		3325570321D5532600912D31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3325570221D5532600912D31 /* Assets.xcassets */; };
 		3325570621D5532600912D31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3325570421D5532600912D31 /* LaunchScreen.storyboard */; };
+		3325570E21D556C500912D31 /* MapFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325570D21D556C500912D31 /* MapFeatureViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3325570221D5532600912D31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3325570521D5532600912D31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3325570721D5532600912D31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3325570D21D556C500912D31 /* MapFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFeatureViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				332556FB21D5532400912D31 /* AppDelegate.swift */,
 				332556FD21D5532400912D31 /* ViewController.swift */,
+				3325570D21D556C500912D31 /* MapFeatureViewController.swift */,
 				332556FF21D5532400912D31 /* Main.storyboard */,
 				3325570221D5532600912D31 /* Assets.xcassets */,
 				3325570421D5532600912D31 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3325570E21D556C500912D31 /* MapFeatureViewController.swift in Sources */,
 				332556FE21D5532400912D31 /* ViewController.swift in Sources */,
 				332556FC21D5532400912D31 /* AppDelegate.swift in Sources */,
 			);
